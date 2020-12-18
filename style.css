@@ -1,0 +1,299 @@
+body{
+	position: relative;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: #333;
+}
+
+/* 导航栏 */
+#navbar{
+	z-index: 2;
+	position: fixed;
+	top: 0px;
+	color: #333;
+	background-color: white;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	width: 100%;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.12);
+}
+
+/* 容器 */
+.container{
+	width: 75%;
+	margin: auto;
+}
+
+/*--------*/
+/*-STEP 2-*/
+/*--------*/
+
+/*Add the appropriate pseudo-class to .nav-element*/
+.nav-element:hover {
+	/*Add the properties below here*/
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*Add the entire appropriate button pseudo selector below here.
+Add necessary properties and a transition to distinguish
+this pseudo state from it's normal state*/
+
+
+
+
+
+/*DONE WITH STEP 2*/
+
+/*--------*/
+/*-STEP 3-*/
+/*--------*/
+/*Add all of the selectors and pseudo-selectors for the link*/
+
+
+
+
+
+/*DONE WITH STEP 3*/
+
+/*--------*/
+/*-STEP 4-*/
+/*--------*/
+
+#form{
+	position: absolute;
+	width: 400px;
+	/* margin-top: 24px; */
+	right: 4.5vw;
+	z-index: 1;
+	background-color: #e0e0e0;
+	font-size: 24px;
+	/*STEP 4: Add more properties*/
+    
+    
+
+}
+/* 按钮 */
+#button{
+	margin-top: 24px;
+	padding-top:12px;
+	padding-bottom:12px;
+	background-color: #87CEFA;
+	color:white;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	/*STEP 4: Add more properties*/
+}
+
+#button:hover {
+	cursor: pointer;
+	background-color: #00BFFF;
+}
+
+input{
+	align-content:space-between;
+	height: 35px;
+	width: 100%;
+	margin-top: 20px;
+	padding-left: 5%;
+	width: 95%;
+	overflow: hidden;
+	font-family: 'Lato', 'sans-serif';
+	font-size: 16px;
+	/*STEP 4: Add more properties*/
+    
+    
+
+}
+/* 第4步：在下面添加一个伪选择器以创建响应 */
+/* 当您将鼠标悬停在“我们的旅程”图库中的项目上时。 */
+/*STEP 4: Add a pseudo selector below to create a response
+as you hover over items in the "Our Rides" gallery.*/
+
+
+/* 第4步结束和手动结束 */
+/*END OF STEP 4 AND END OF HANDS-ON*/
+
+/*----------*/
+/*OTHER CODE*/
+/*----------*/
+/*No need to edit anything below unless you want to play around with it*/
+/* 标题 */
+#title {
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+#brand{
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 0px;
+}
+
+.float-left{
+	float: left;
+	margin-right: 24px;
+	/* padding-top: 6px */
+}
+
+.float-right{
+	float: right;
+	margin-left: 24px;
+	/* padding-top: 6px; */
+}
+
+#main-page{
+	margin-top: 61px;
+	padding-top: 36px;
+	margin-bottom: 48px;
+}
+
+#slogan-text{
+	font-size: 48px;
+}
+
+.light-text{
+	font-weight: 100;
+}
+
+/* 开机画面 */
+#splash-image{
+	background-image: url(https://i01piccdn.sogoucdn.com/a02effc6c7d19f4d);
+	background-color: black;
+	height: 512px;
+	width: 100%;
+	margin-bottom: 48px;
+	background-size: cover;
+}
+
+/* 画廊 */
+#gallery {
+	width: 100%;
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+
+.items {
+	position: relative;
+	height: 300px;
+	width: 150px;
+	border: 2px solid #ccc;
+	padding: 24px;
+	display: inline-block;
+	margin: 12px;
+}
+/* 
+.items:hover {
+	
+	z-index: 10;
+
+	border: 2px solid #ff0062;
+} */
+
+/* 单数变灰色，偶数变红色 */
+.items:nth-child(odd):hover {
+	border: 2px solid #104F55;
+}
+.items:nth-child(even):hover {
+	border: 2px solid red;
+}
+
+
+
+.vehicle{
+	height: 31px;
+	padding-bottom: 12px;
+	/* 字体设置 */
+	font-size: 24px;
+	font-weight: 300px;
+	text-align: center;
+}
+
+.text {
+	position: absolute;
+	align-content:space-between;
+	height: auto;
+	width: 150px;
+	font-size: 18px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 12px;
+}
+
+/* 车辆 */
+.vehicle{
+	background-color: white;
+	height: 150px;
+	width: 150px;
+	border-radius: 200px;
+}
+
+/* 车辆图片设置 */
+.veh-img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius:200px;
+}
+
+/* 画廊 */
+#veh-gallery {
+	margin-bottom: 100px;
+}
+
+#form .container{
+	margin-top: 24px;
+}
+
+/* 名字 */
+#name{
+	margin-bottom: 24px;
+}
+
+/* 登录 */
+.login{
+	margin-top: 1px;
+	margin-bottom: 24px;
+}
+
+/* 检查一下 */
+#check{
+	font-size: 14px;
+	margin-top: 24px;
+	margin-bottom: 48px;
+	font-weight: 700;
+}
+
+
+/* 页脚 */
+#footer {
+	font-size: 12px;
+	padding: 0;
+	list-style: none;
+	margin-bottom: 48px;
+}
+
+#footer>li {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.under>a {
+	text-decoration: none;
+	color: #333;
+}
+
+.under:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#brand:hover{
+	text-decoration: none !important;
+}
