@@ -1,0 +1,78 @@
+
+
+/*问题1：填写html内容 */
+html {
+    margin: 0px;
+}
+
+/*问题2：选择个人资料图片，并使其显示为圆*/
+#profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 45px;
+}
+
+#pictures {
+    position: absolute;
+    top: 185px;
+    left: -80px;
+}
+
+#information {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* 问题3：关注按钮！5像素顶部和底部，左侧和右侧30 */
+#follow-button {
+    padding: 5px 30px 5px 30px;
+    cursor: default;
+}
+
+/*问题4：将图片变成正方形的120x120像素图像*/
+/*问题5：在图片之间创建10像素的水平间距*/
+.item {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    cursor: default;
+}
+
+
+/*问题6：在行之间创建10px的垂直空间*/
+.row {
+    margin-bottom: 10px;
+}
+
+
+/*问题7：在每个导航项之间添加20px的间距*/
+.navbar-item {
+    margin: 20px;
+    cursor: default;
+}
+
+#navbar {
+    padding-bottom: 15px;
+}
+
+/*问题8：创建悬停效果，使悬停时，完全不透明！过渡时间为0.2秒*/
+.item:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+/*问题9：在“跟随”按钮上添加点击效果，单击，字体变为18号！*/
+#follow-button:active {
+    font-size: 18px;
+}
+
+/*问题10：添加悬停效果，悬停时不透明度为1！*/
+.navbar-item:hover {
+    opacity: 1;
+}
+
+/*问题11：选择跟随按钮，图片项目和导航栏项目时，具有指针光标*/
+/*---代码已写在前面相关项目中---*/
